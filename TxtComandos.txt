@@ -1,0 +1,18 @@
+C:\Users\Todes\Desktop\PROG_II_2021\Hola-Mundo>git init
+
+C:\Users\Todes\Desktop\PROG_II_2021\Hola-Mundo>git status
+
+C:\Users\Todes\Desktop\PROG_II_2021\Hola-Mundo>git add *
+
+C:\Users\Todes\Desktop\PROG_II_2021\Hola-Mundo>git commit -m"Commit inicial"
+
+https://github.com/SoniaOlivera/Hola-Mundo.git
+
+C:\Users\Todes\Desktop\PROG_II_2021\Hola-Mundo>git remote add origin https://github.com/SoniaOlivera/Hola-Mundo.git
+
+C:\Users\Todes\Desktop\PROG_II_2021\Hola-Mundo>git pull origin master --allow-unrelated-histories
+
+
+C:\Users\Todes\Desktop\PROG_II_2021\Hola-Mundo>git branch --set-upstream-to=origin/master master
+
+C:\Users\Todes\Desktop\PROG_II_2021\Hola-Mundo>git push
