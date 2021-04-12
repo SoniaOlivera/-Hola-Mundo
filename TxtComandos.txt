@@ -16,3 +16,29 @@ C:\Users\Todes\Desktop\PROG_II_2021\Hola-Mundo>git pull origin master --allow-un
 C:\Users\Todes\Desktop\PROG_II_2021\Hola-Mundo>git branch --set-upstream-to=origin/master master
 
 C:\Users\Todes\Desktop\PROG_II_2021\Hola-Mundo>git push
+
+C:\Users\Todes\Desktop\PROG_II_2021\Hola-Mundo>DEL C:\Users\Todes\Desktop\PROG_II_2021\Hola-Mundo
+C:\Users\Todes\Desktop\PROG_II_2021\Hola-Mundo\*, ¿Está seguro (S/N)? SC:\Users\Todes\Desktop\PROG_II_2021\Hola-Mundo
+
+cd C:\Users\Todes\Desktop\PROG_II_2021>
+
+C:\Users\Todes\Desktop\PROG_II_2021>git clone https://github.com/SoniaOlivera/Hola-Mundo.git
+
+C:\Users\Todes\Desktop\PROG_II_2021>cd C:\Users\Todes\Desktop\PROG_II_2021\Hola-Mundo
+
+C:\Users\Todes\Desktop\PROG_II_2021\Hola-Mundo>git branch dev
+
+C:\Users\Todes\Desktop\PROG_II_2021\Hola-Mundo>git checkout dev
+
+***No pude cambiar el nombre del archivo readme ni directo ni por consola***
+C:\Users\Todes\Desktop\PROG_II_2021\Hola-Mundo>git add .
+
+C:\Users\Todes\Desktop\PROG_II_2021\Hola-Mundo>git commit -m"Cambios en la rama"
+
+git push --set-upstream origin dev
+
+C:\Users\Todes\Desktop\PROG_II_2021\Hola-Mundo>git checkout master
+
+C:\Users\Todes\Desktop\PROG_II_2021\Hola-Mundo>git merge dev
+
+C:\Users\Todes\Desktop\PROG_II_2021\Hola-Mundo>git push
